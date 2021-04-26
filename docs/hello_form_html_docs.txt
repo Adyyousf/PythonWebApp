@@ -1,0 +1,10 @@
+## <form action="/hello" method="POST"> 
+        This tells your browser to:
+        1. Collect data from the user using the form fields inside the form.
+        2. Send them to the server using a POST type of request, which is just another browser request that “hides” the form fields.
+        3. Send that to the /hello URL (as shown in the action="/hello" part).
+        
+        
+        
+## <input type="button" value="Go Back" onclick="history.back()" />         
+        The back() method loads the previous URL in the history list.

@@ -1,0 +1,22 @@
+<!-- To learn more about this template language read the Jinja2 documentation -->
+
+
+<html>
+    <head>
+        <title>Gothons Of Planet Percal #25</title>
+    </head>
+<body>
+
+{% if greeting %}  
+    I just wanted to say
+    <em style="color: green; font-size: 2em;">{{ greeting }}
+    </em> 
+    </br>
+    <input type="button" value="Go Back" onclick="history.back()" /> 
+    
+{% else %}
+    <em> Hello</em>, world!
+{% endif %}
+
+</body>
+</html>

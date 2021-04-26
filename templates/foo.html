@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Gothons Of Planet Percal #25</title>
+    </head>
+<body>
+
+{% for i in range(10) if greeting == 'Hello world' %}
+    I just wanted to say
+    <em style="color: green; font-size: 2em;">{{ greeting }}</em>
+{% else %}
+    <em style="color: red; font-size: 4em"> Hello</em>, world!
+{% endfor %}
+
+</body>
+</html>
